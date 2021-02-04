@@ -9,7 +9,8 @@ The second version is a DCGAN inspired by the official tensorflow tutorial. (htt
 ## Advanced DCGAN for generating drawn Faces
 This version is more sophisticated compared to the other two versions. It has many more layers and uses residual blocks. (inspired by https://arxiv.org/pdf/1609.04802.pdf)
 It also generates images in higher resolution (256x256).  
-The dataset used for training is selfmade. I primarily used faces from Kyoto Animations. The dataset can not be shared due to copyright reasons. 
+The dataset used for training is selfmade. I primarily used faces from Kyoto Animations. The dataset can not be shared due to copyright reasons.  
 ![Advanced DCGAN with 120 epochs](https://github.com/NikolajBl/GAN/blob/main/gifs/face.gif)  
 - Advances DCGAN for 120 epochs.  
+
 Note that unfortunately the colouring is off as i accidentally saved the images in grayscale. Rerunning the network however is quite tedious (4 minutes per epoch), so I decided not to. 
